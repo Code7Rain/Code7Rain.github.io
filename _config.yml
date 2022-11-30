@@ -122,9 +122,9 @@ aplayer:
 #   template: ./search.xml
 
 algolia:
-  appId: "0VNWY01XOP"
-  apiKey: "39401f0e08b2ead2341d140876711973"
-  adminApiKey: "9a19e0f172c820213b9739c82c110dde"
+  appId: ""
+  apiKey: ""
+  adminApiKey: ""
   chunkSize: 5000
   indexName: "coderain"
   fields:
