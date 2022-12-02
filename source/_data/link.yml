@@ -1,5 +1,5 @@
-- class_name: 友情链接
-  class_desc: 那些人，那些事
+- class_name: 站点
+  class_desc: 本站相关站点
   link_list:
     - name: Code-Rain
       avatar: https://avatars.githubusercontent.com/u/79618448?v=4
