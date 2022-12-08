@@ -21,6 +21,18 @@ comments: false
 
 {% timeline 更新日志,blue %}
 
+<!-- timeline 2022.12.07-08 -->
+
+{% label 增加 orange %} 文章内容，迁移自博客园
+
+<!-- endtimeline -->
+
+<!-- timeline 2022.12.03 -->
+
+{% label 增加 orange %} 本地图片存储 post_asset_folder: true
+
+<!-- endtimeline -->
+
 <!-- timeline 2022.12.01 -->
 
 {% label 增加 orange %} 侧边栏公众号、QQ群二维码

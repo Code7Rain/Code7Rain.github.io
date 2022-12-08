@@ -12,7 +12,7 @@ comments: false
 - Address: NanJing
 - Github: https://github.com/Code7Rain
 - Blog: https://code7rain.github.io/
-- csdn: https://blog.csdn.net/qq_44138925
+- CSDN: https://blog.csdn.net/qq_44138925
 - 博客园: https://www.cnblogs.com/Code-Rain/
 - Hobbies: Badminton
 - motto: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
@@ -42,7 +42,7 @@ comments: false
 - email: coderain2022@163.com
 
 
-  
+
   
 
 

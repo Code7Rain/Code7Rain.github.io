@@ -15,8 +15,6 @@ only:
 - home
 - category
 - tag
-top_img: 
-cover: 
 ---
 
 本项目是根据B站韩顺平【零基础快速 Java】课程进行的。项目的主要目的是学习巩固 Java 基础知识。<!-- more -->
@@ -26,20 +24,20 @@ cover:
 ## 前言
 本项目是根据B站韩顺平【零基础快速 Java】课程进行的。项目的主要目的是学习巩固 Java 基础知识。
 
-## 一、需求
+## 需求
 实现房屋出租系统，基本功能包括对房屋信息的增删改查（存储用数组实现）。
 
-## 二、项目设计-程序框架图
-![程序框架图](https://img2022.cnblogs.com/blog/2291368/202202/2291368-20220227144414328-1953458094.png)
+## 项目设计-程序框架图
+![2291368-20220227144414328-1953458094](房屋出租系统【韩顺平 Java 基础案例复现】/2291368-20220227144414328-1953458094.png)
 
-## 三、项目代码实现
+## 项目代码实现
 
-### 3-1 文件夹结构
+### 文件夹结构
 
-![](https://img2022.cnblogs.com/blog/2291368/202202/2291368-20220227160905796-630586732.png)
+![2291368-20220227160905796-630586732](房屋出租系统【韩顺平 Java 基础案例复现】/2291368-20220227160905796-630586732.png)
 
 
-### 3-2 工具类准备
+### 工具类准备
 
 这里的 Utility 类是韩顺平Utility工具类(java房屋出租项目)，创建工具类文件复制到自己的项目里即可。
 
@@ -219,9 +217,9 @@ public class Utility {
 }
 ```
 
-### 3-3 具体功能类
+### 具体功能类
 
-#### 3-3-1 House类
+#### House类
 
 House实体类的属性有编号，房主， 电话，地址，月租，状态。House的对象表示一个房屋信息。其中构造器、Get和Set方法、toSring方法快捷键Alt+Insert生成即可，toSring略微改成自己想要的格式。
 
@@ -313,7 +311,7 @@ public class House {
 }
 ```
 
-#### 3-3-2 HouseView类 
+#### HouseView类 
 
 HouseView类用于显示界面
 
@@ -516,7 +514,7 @@ public class HouseView {
 }
 ```
 
-#### 3-3-3 HouseService类
+#### HouseService类
 
 HouseService类用于给HouseView类传输相应的数据，如HouseView中有listHouse()方法，而HouseService中的list()方法用于给listHouse()方法传送房屋列表的信息。
 
@@ -601,7 +599,7 @@ public class HouseService {
 }
 ```
 
-#### 3-3-4 HouseRentApp类
+#### HouseRentApp类
 
 主程序启动类
 
@@ -621,7 +619,6 @@ public class HouseRentApp {
 
     }
 }
-
 ```
 
 ## 结束语

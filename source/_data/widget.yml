@@ -13,4 +13,4 @@ top:
       name: 欢迎扫码
       icon: fas fa-qrcode
       order: 
-      html: '<div><i class="fab fa-weixin"></i> <b> 公众号</b><p align="center"><img src="../img/wechatpublic.png" width="170" alt="公众号"></img></div></p><div><i class="fab fa-qq"></i> <b> QQ群</b><p align="center"><img src="../img/qq.png" width="170" alt="QQ群"></img></div></p>'
+      html: '<div><i class="fab fa-weixin"></i> <b> 公众号</b><p align="center"><img src="/img/wechatpublic.png" width="170" alt="公众号"></img></div></p><div><i class="fab fa-qq"></i> <b> QQ群</b><p align="center"><img src="/img/qq.png" width="170" alt="QQ群"></img></div></p>'

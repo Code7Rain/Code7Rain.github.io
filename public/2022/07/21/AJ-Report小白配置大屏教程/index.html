@@ -1,0 +1,464 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>AJReport小白配置大屏教程 | CodeRain</title><meta name="author" content="CodeRain"><meta name="copyright" content="CodeRain"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="AJReport小白配置大屏教程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AJReport小白配置大屏教程">
+<meta property="og:url" content="http://code7rain.github.io/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="CodeRain">
+<meta property="og:description" content="AJReport小白配置大屏教程">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://w.wallhaven.cc/full/zy/wallhaven-zyx9lw.jpg">
+<meta property="article:published_time" content="2022-07-21T11:32:00.000Z">
+<meta property="article:modified_time" content="2022-12-07T08:28:11.532Z">
+<meta property="article:author" content="CodeRain">
+<meta property="article:tag" content="AJ-Report">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://w.wallhaven.cc/full/zy/wallhaven-zyx9lw.jpg"><link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/79618448?v=4"><link rel="canonical" href="http://code7rain.github.io/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"0VNWY01XOP","apiKey":"39401f0e08b2ead2341d140876711973","indexName":"coderain","hits":{"per_page":6},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'AJReport小白配置大屏教程',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-07 16:28:11'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/transpancy.css"><meta name="generator" content="Hexo 5.4.2"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar_my01.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">20</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-bars"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 悦读</span></a></li><li><a class="site-page child" href="/health/"><i class="fa-fw fas fa-medkit"></i><span> 养生</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 链接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/collection/"><i class="fa-fw fas fa-sitemap"></i><span> 优站</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-id-card"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/site/"><i class="fa-fw fas fa-globe"></i><span> 关于本站</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">CodeRain</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-bars"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 悦读</span></a></li><li><a class="site-page child" href="/health/"><i class="fa-fw fas fa-medkit"></i><span> 养生</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 链接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/collection/"><i class="fa-fw fas fa-sitemap"></i><span> 优站</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-id-card"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/site/"><i class="fa-fw fas fa-globe"></i><span> 关于本站</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">AJReport小白配置大屏教程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-21T11:32:00.000Z" title="发表于 2022-07-21 19:32:00">2022-07-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-12-07T08:28:11.532Z" title="更新于 2022-12-07 16:28:11">2022-12-07</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/categories/">categories</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="AJReport小白配置大屏教程"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h2 id="AJ-Report小白配置大屏教程"><a href="#AJ-Report小白配置大屏教程" class="headerlink" title="AJ-Report小白配置大屏教程"></a>AJ-Report小白配置大屏教程</h2><h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>leader 上周周五快下班时给了我一个任务，问我说项目新集成的 AJ-Report 玩的怎么样了，下周给部门其他同事做个技术分享，快速教会其他人上手，刚来公司还算新人的我这叫一个受宠若惊啊，心想这是什么福报【手动狗头】，周六加班的理由来了啊，然后周六肝了一天，去官网探索后整理出这么一份算是操作手册吧。</p>
+<p>由于项目已经集成到项目中，所以下文主要展开怎么配置大屏，对于怎么集成以后有机会再做介绍。</p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><h4 id="其他大屏可视化工具"><a href="#其他大屏可视化工具" class="headerlink" title="其他大屏可视化工具"></a>其他大屏可视化工具</h4><p>由于不知道大家对大屏可视化的了解程度，所以先大概聊一下大屏可视化以及AJ-report有哪些优点，</p>
+<p>可能大家已经了解市面上DataEase、Superset等，这些大屏可视化技术目的都是为了让数据展示的更加直观，重点数据一目了然。<br>当然各有优缺点，如付费，技术栈支持等。有兴趣的话可以自己去研究一下，我就不多做赘述。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/shunshuntuo/article/details/123739448">大屏可视化—DataEase、AJ-report、Superset调研对比</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_38500689/article/details/121290545?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-121290545-blog-123739448.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-121290545-blog-123739448.pc_relevant_aa&utm_relevant_index=4">dataease、AJ-report大屏可视化工具对比</a></p>
+<h4 id="AJ-Report优点"><a href="#AJ-Report优点" class="headerlink" title="AJ-Report优点"></a>AJ-Report优点</h4><p>接下来回到AJ-report，来看一下AJ-report有哪些优点，当然这也是我个人认为学习新技术比较重要的一点，官网的东西一般是最全的，并且比较有权威。</p>
+<p><a target="_blank" rel="noopener" href="https://ajreport.beliefteam.cn/report-doc/">AJ-report官网操作指南</a></p>
+<p>我简单总结了一下五点：</p>
+<ul>
+<li><p>完全开源的BI平台</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/152340660">BI平台</a> BI(Business Intelligence)，也就是商业智能。</p>
+</li>
+<li><p>多数据源支持</p>
+<p>内置mysql、elasticsearch、kudu等多种驱动</p>
+</li>
+<li><p>组件丰富</p>
+<p>大屏酷炫支持20种大屏组件/图表</p>
+</li>
+<li><p>最新最稳定的技术栈</p>
+</li>
+<li><p>设计简单</p>
+<p><strong>三步轻松完成大屏设计：配置数据源—-&gt;写SQL配置数据集—-&gt;拖拽配置大屏</strong>，保存发布即可。</p>
+<p>  实际这三步很好理解</p>
+<p>  配置数据源就是连接数据库的意思</p>
+<p>  —-&gt;写SQL配置数据集就是写sql语句查询想要的数据</p>
+<p>  —-&gt;拖拽配置大屏就是搞个前端页面把查询的数据展示出来</p>
+</li>
+</ul>
+<p>实际很多可视化流程思路都是类似的。 也就是说理解这个思路其他看板的配置也应该难不倒大家了。</p>
+<p>  数据流程图：</p>
+ <img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191749922-146783398.png" class="">
+
+
+
+
+<h3 id="报表设计"><a href="#报表设计" class="headerlink" title="报表设计"></a>报表设计</h3><p>下面聊一下如何设计。</p>
+<p>也就是以上三步，我们就直接来设计页面看一下。</p>
+<h4 id="配置数据源（连接数据库）"><a href="#配置数据源（连接数据库）" class="headerlink" title="配置数据源（连接数据库）"></a>配置数据源（连接数据库）</h4><ol>
+<li><p>步骤</p>
+<p>点击菜单栏数据源 -&gt; 新增 -&gt; 项目基础配置,然后进行简单配置即可</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191906001-129999431.png" class="">
+
+<ul>
+<li>驱动类、连接串、用户名、密码必须填写正确。</li>
+<li>只有测试通过的数据源才可以保存。</li>
+</ul>
+</li>
+</ol>
+<h4 id="配置数据集（查表）"><a href="#配置数据集（查表）" class="headerlink" title="配置数据集（查表）"></a>配置数据集（查表）</h4><ol>
+<li><p>步骤</p>
+<p>点击菜单栏数据集 -&gt; 新增 -&gt; 编辑数据集，填写数据源，数据集编码及名称，sql语句即可。</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191926832-623454467.png" class=""></li>
+<li><p>注意</p>
+<p>SQL数据集尽量不要使用 “select *”，以及展示很大的数据量，图表不一定能展示、页面可能会卡死</p>
+</li>
+<li><p>功能栏</p>
+<ul>
+<li>查询参数(扩展)</li>
+<li>数据转换(扩展)</li>
+<li>测试预览</li>
+</ul>
+</li>
+</ol>
+<h4 id="配置大屏或报表（渲染展示）"><a href="#配置大屏或报表（渲染展示）" class="headerlink" title="配置大屏或报表（渲染展示）"></a>配置大屏或报表（渲染展示）</h4><ol>
+<li><p>添加报表</p>
+<p> 点击报表管理数据 -&gt; 新增 -&gt; 报表管理，填写报表名称、编码、类型。</p>
+<p> 注意报表编码唯一。</p>
+ <img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191945273-633031838.png" class=""></li>
+<li><p>设计大屏（进入设计大屏）</p>
+<pre><code> 进入设计大屏其一：报表管理 -&gt; 列表操作栏 -&gt; 更多 -&gt; 设计可进入；其二：大屏报表 -&gt; 列表 -&gt;  设计图标可进入。
+
+设计空白页如下图有工具栏、图层、保存和配置栏等。 
+
+&#123;% asset_img 2291368-20220721192015456-1643726883.png  %&#125;
+</code></pre>
+<p>   点击工具栏组件拖到中间设计屏幕，鼠标选中组件可以看到右边有具体组件的配置，数据绑定及位置坐标设置，进行具体设置即可。</p>
+  <img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721192029555-1871185722.png" class=""></li>
+<li><p>保存、预览、分享</p>
+<p>点击预览即可进入大屏展示界面。</p>
+<p>这个分享还是有点意思的，像百度网盘一样分享需要密码才能打开。</p>
+<p>具体如图。</p>
+<p>操作 - &gt; 更多 -&gt; 分享</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721192358791-779277970.png" class="">
+
+<p>然后跳转到如下界面</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721192408284-1212976555.png" class="">
+
+<p>点击创建链接</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721192416373-1191184138.png" class="">
+
+<p>复制链接和分享码到浏览器打开时候就需要输入密码了。</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721192426073-764010738.png" class="">
+
+<p>输入密码确认即可进入大屏了。</p>
+</li>
+</ol>
+<h3 id="系统设置"><a href="#系统设置" class="headerlink" title="系统设置"></a>系统设置</h3><h4 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h4><p>支持多种文件上传，如图片、pdf、视频等。</p>
+<h4 id="数据字典"><a href="#数据字典" class="headerlink" title="数据字典"></a>数据字典</h4><p>系统设置 -&gt; 数据字典 -&gt; 新增 -&gt; 填写配置</p>
+<p>字典列表操作 -&gt; 更多 -&gt; 编辑字典项</p>
+<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>数据库伪数据</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191608294-1205959101.png" class="">
+
+
+<h4 id="查询参数"><a href="#查询参数" class="headerlink" title="查询参数"></a>查询参数</h4><blockquote>
+<p>查询参数主要是针对 sql 中存在的动态参数，需要在后续的大屏使用时动态传入的时候做的操作。http 类型数据源支持改请求路径。请求头，请求体内容。</p>
+</blockquote>
+<p>如图所示，查询 sql 中，定义了两个变量，startTime 和 endTime。那需要我们在查询参数中添加对应的两个参数。 参数名保持和查询 sql 中 ${param} 保持一致。</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191652637-703350503.png" class="">
+
+
+<p>测试预览：（展示的数据就只有startTime 和 endTime这段时间的数据了）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    &quot;datetime&quot;: &quot;2021-06-19&quot;,</span><br><span class="line">    &quot;unsales&quot;: 0,</span><br><span class="line">    &quot;manus&quot;: 7,</span><br><span class="line">    &quot;id&quot;: 8,</span><br><span class="line">    &quot;rework&quot;: 1,</span><br><span class="line">    &quot;brand&quot;: &quot;A-100&quot;,</span><br><span class="line">    &quot;sales&quot;: 7,</span><br><span class="line">    &quot;return&quot;: 0</span><br><span class="line">  &#125;,</span><br><span class="line">  ...</span><br><span class="line">  ...</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<h4 id="数据转换"><a href="#数据转换" class="headerlink" title="数据转换"></a>数据转换</h4><p>步骤：数据转换 -&gt; 新增 -&gt; (js脚本为例)</p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191538622-1742764931.png" class="">
+
+
+<p><strong>需求1：实现对brand字段进行拆分,例如 A-100 拆分为 A 和 100</strong></p>
+<p>点击js脚本前小蜡笔图标编辑如下代码</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">dataTransform</span>(<span class="params">data</span>)&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//自定义脚本内容</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//1.遍历测试预览中的java.util.ArrayList&lt;java.lang.Object&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(j = <span class="number">0</span>, len = data.<span class="property">length</span>; j &lt; len; j++)&#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//获取一行数据</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">var</span> row = data[j]</span><br><span class="line"></span><br><span class="line">        <span class="comment">//比如对brand字段进行拆分,例如A-100，B-50</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">var</span> brand = row[<span class="string">&#x27;brand&#x27;</span>]</span><br><span class="line"></span><br><span class="line">        <span class="keyword">var</span> split = brand.<span class="title function_">split</span>(<span class="string">&#x27;-&#x27;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment">//新增两个字段</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">var</span> model = split[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">        <span class="keyword">var</span> series = split[<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">        <span class="comment">//对原始对象赋值</span></span><br><span class="line"></span><br><span class="line">        dataj = model</span><br><span class="line"></span><br><span class="line">        dataj = series</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> data;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>数据转换后测试预览</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">   &#123;</span><br><span class="line">     &quot;datetime&quot;: &quot;2021-06-19&quot;,</span><br><span class="line">     &quot;unsales&quot;: 0,</span><br><span class="line">     &quot;manus&quot;: 7,</span><br><span class="line">     &quot;series&quot;: &quot;100&quot;,</span><br><span class="line">     &quot;model&quot;: &quot;A&quot;,</span><br><span class="line">     &quot;id&quot;: 8,</span><br><span class="line">     &quot;rework&quot;: 1,</span><br><span class="line">     &quot;brand&quot;: &quot;A-100&quot;,</span><br><span class="line">     &quot;sales&quot;: 7,</span><br><span class="line">     &quot;return&quot;: 0</span><br><span class="line">   &#125;</span><br><span class="line"> ] </span><br></pre></td></tr></table></figure>
+
+<p>   字典翻译(数据转换的一种，应该是官方封装好的脚本)</p>
+<p><strong>需求2：”model”: “A”,转换为”model”: “A模型”,</strong></p>
+<img src="/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/2291368-20220721191515359-510796598.png" class="">
+
+
+
+<p>数据转换+字典翻译后测试预览</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">     &quot;datetime&quot;: &quot;2021-06-19&quot;,</span><br><span class="line">     &quot;unsales&quot;: 0,</span><br><span class="line">     &quot;manus&quot;: 7,</span><br><span class="line">     &quot;series&quot;: &quot;100&quot;,</span><br><span class="line">     &quot;model&quot;: &quot;A模型&quot;,</span><br><span class="line">     &quot;id&quot;: 8,</span><br><span class="line">     &quot;rework&quot;: 1,</span><br><span class="line">     &quot;brand&quot;: &quot;A-100&quot;,</span><br><span class="line">     &quot;sales&quot;: 7,</span><br><span class="line">     &quot;return&quot;: 0</span><br><span class="line">   &#125;</span><br><span class="line">] </span><br></pre></td></tr></table></figure>
+
+<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>以上就是我关于此次分享全部内容。</p>
+<p>当然因为水平和时间有限，如有不足之处，欢迎之后交流指正。</p>
+<p>最后感谢各位的聆听。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://Code7Rain.github.io">CodeRain</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://code7rain.github.io/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/">http://code7rain.github.io/2022/07/21/AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://Code7Rain.github.io" target="_blank">CodeRain</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AJ-Report/">AJ-Report</a></div><div class="post_share"><div class="social-share" data-image="https://w.wallhaven.cc/full/zy/wallhaven-zyx9lw.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/08/30/IDEA%E7%83%AD%E9%83%A8%E7%BD%B2%E6%8F%92%E4%BB%B6JRebel%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"><img class="prev-cover" src="https://w.wallhaven.cc/full/ex/wallhaven-exyw3o.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">IDEA热部署插件JRebel的安装与使用</div></div></a></div><div class="next-post pull-right"><a href="/2022/07/21/%E9%98%BF%E9%87%8C%E4%BA%91%20ECS%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8+%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/"><img class="next-cover" src="https://w.wallhaven.cc/full/ex/wallhaven-exyw3o.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">阿里云ECS服务器入门使用+宝塔安装使用</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Waline</span><span class="switch-btn"></span><span class="second-comment">Valine</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar_my01.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CodeRain</div><div class="author-info__description">脚踏实地</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">20</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Code7Rain"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:2261142446@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://www.cnblogs.com/Code-Rain/" target="_blank" title="博客园"><i class="fas fa-feed"></i></a><a class="social-icon" href="https://blog.csdn.net/qq_44138925" target="_blank" title="CSDN"><i class="fas fa-copyright"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="card-widget card-code" id="card-code"><div class="item-headline"><i class="fas fa-qrcode"></i><span>欢迎扫码</span></div><div class="item-content"><div><i class="fab fa-weixin"></i> <b> 公众号</b><p align="center"><img src="/img/wechatpublic.png" width="170" alt="公众号"></img></div></p><div><i class="fab fa-qq"></i> <b> QQ群</b><p align="center"><img src="/img/qq.png" width="170" alt="QQ群"></img></div></p></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#AJ-Report%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%95%99%E7%A8%8B"><span class="toc-number">1.</span> <span class="toc-text">AJ-Report小白配置大屏教程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%83%8C%E6%99%AF"><span class="toc-number">1.1.</span> <span class="toc-text">背景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.2.</span> <span class="toc-text">前言</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%A4%A7%E5%B1%8F%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7"><span class="toc-number">1.2.1.</span> <span class="toc-text">其他大屏可视化工具</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#AJ-Report%E4%BC%98%E7%82%B9"><span class="toc-number">1.2.2.</span> <span class="toc-text">AJ-Report优点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%A5%E8%A1%A8%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.3.</span> <span class="toc-text">报表设计</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E6%95%B0%E6%8D%AE%E6%BA%90%EF%BC%88%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%89"><span class="toc-number">1.3.1.</span> <span class="toc-text">配置数据源（连接数据库）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E6%95%B0%E6%8D%AE%E9%9B%86%EF%BC%88%E6%9F%A5%E8%A1%A8%EF%BC%89"><span class="toc-number">1.3.2.</span> <span class="toc-text">配置数据集（查表）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B1%8F%E6%88%96%E6%8A%A5%E8%A1%A8%EF%BC%88%E6%B8%B2%E6%9F%93%E5%B1%95%E7%A4%BA%EF%BC%89"><span class="toc-number">1.3.3.</span> <span class="toc-text">配置大屏或报表（渲染展示）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE"><span class="toc-number">1.4.</span> <span class="toc-text">系统设置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86"><span class="toc-number">1.4.1.</span> <span class="toc-text">文件管理</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%AD%97%E5%85%B8"><span class="toc-number">1.4.2.</span> <span class="toc-text">数据字典</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%A9%E5%B1%95"><span class="toc-number">1.5.</span> <span class="toc-text">扩展</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9F%A5%E8%AF%A2%E5%8F%82%E6%95%B0"><span class="toc-number">1.5.1.</span> <span class="toc-text">查询参数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2"><span class="toc-number">1.5.2.</span> <span class="toc-text">数据转换</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">1.6.</span> <span class="toc-text">后记</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By CodeRain</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-info"><div class="algolia-stats"></div><div class="algolia-poweredBy"></div></div></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch/dist/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js/dist/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>function loadWaline () {
+  function insertCSS () {
+    const link = document.createElement("link")
+    link.rel = "stylesheet"
+    link.href = "https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css"
+    document.head.appendChild(link)
+  }
+
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://waline-kyxyyjgfh-code7rain.vercel.app/',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  if (typeof Waline === 'function') initWaline()
+  else {
+    insertCSS()
+    getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js').then(initWaline)
+  }
+}
+
+if ('Waline' === 'Waline' || !true) {
+  if (true) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: '',
+      appKey: '',
+      avatar: 'monsterid',
+      serverURLs: 'https://sw8wchar.lc-cn-n1-shared.com',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/valine_f/valine.min.js').then(initValine)
+}
+
+if ('Waline' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><div class="aplayer no-destroy" data-id="7570968793" data-server="tencent" data-type="playlist" data-fixed="true" data-order="random" data-autoplay="false"> </div><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><script>window.$crisp = [];
+window.CRISP_WEBSITE_ID = "fe0bd0ee-8887-4e82-a7cc-fe59ae4aa694";
+(function () {
+  d = document;
+  s = d.createElement("script");
+  s.src = "https://client.crisp.chat/l.js";
+  s.async = 1;
+  d.getElementsByTagName("head")[0].appendChild(s);
+})();
+$crisp.push(["safe", true])
+
+if (true) {
+  $crisp.push(["do", "chat:hide"])
+  $crisp.push(["on", "chat:closed", function() {
+    $crisp.push(["do", "chat:hide"])
+  }])
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      $crisp.push(["do", "chat:show"])
+      $crisp.push(["do", "chat:open"])
+
+    });
+  }
+  chatBtnFn()
+} else {
+  if (true) {
+    function chatBtnHide () {
+      $crisp.push(["do", "chat:hide"])
+    }
+    function chatBtnShow () {
+      $crisp.push(["do", "chat:show"])
+    }
+  }
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="/movies/"]):not([href="/books/"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
